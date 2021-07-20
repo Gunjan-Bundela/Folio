@@ -1,0 +1,112 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: auto;
+}
+.edu-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+/* .edu-title {
+  font-size: 23px;
+  font-weight: 600;
+} */
+.edu-info {
+  align-items: center;
+  justify-content: baseline;
+  margin-bottom: 0;
+}
+.edu-image {
+  height: 490px;
+}
+.branch {
+  font-family: "Concert One", cursive;
+  /* color: darkslategray; */
+  font-weight: 500;
+  font-size: 35px;
+  margin: 10px 0;
+}
+.edu-detail {
+  margin-top: 20px;
+}
+#para1 {
+  font-family: "Concert One", cursive;
+  font-weight: 300;
+  /* color: darkslategray; */
+  font-size: 20px;
+}
+#para2 {
+  font-size: 19px;
+}
+#para3 {
+  margin-top: 50px;
+  font-size: 18px;
+}
+.para4 {
+    font-family: "Concert One", cursive;
+    /* color: darkslategray; */
+    margin-top: 10px;
+    font-size: 35px;
+  }
+.code-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.code-logo {
+  display: flex;
+  flex-direction: row;
+}
+.code-logo-each{
+    height: 100px;
+    margin: 30px;
+}
+@media only screen and (max-width: 720px) {
+  .edu-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 0;
+  }
+  .edu-image {
+    height: 250px;
+  }
+  .education {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 90%;
+    margin: auto;
+  }
+  .branch {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  #para1 {
+    font-weight: 300;
+    font-size: 16px;
+  }
+  #para2 {
+    font-size: 16px;
+  }
+  #para3 {
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  .para4 {
+    margin-top: 0px;
+    font-size: 22px;
+  }
+  .code-logo-each{
+    height: 60px;
+    margin: 30px 10px 0 10px;
+   }
+}

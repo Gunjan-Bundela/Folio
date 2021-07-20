@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+   font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Bree Serif', serif; */ 
+  /* font-family: 'Bree Serif', serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: #e7feff;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

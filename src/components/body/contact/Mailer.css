@@ -1,0 +1,61 @@
+.formWord{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.formWord h2{
+    font-family: 'Concert One', cursive;
+}
+.formWord span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.formWord input{
+    background-color: lavender;
+    border: none;
+    width: 390px;
+    height: 60px;
+    border-radius: 5px;
+    
+}
+.formWord button{
+    background-color: blueviolet;
+    border: none;
+    width: 390px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: lavender;
+}
+
+ .formWord textarea{
+    background-color: lavender;
+    border: none;
+    width: 390px;
+    height: 160px;
+} 
+@media only screen and (max-width: 720px){
+    .formWord{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        max-height: 100%;
+    }
+    .formWord input{
+        width: 285px;
+        height: 40px;
+        border-radius: 2px; 
+    }
+    .formWord button{
+        width: 285px;
+        height: 40px;
+        border-radius: 2px;
+        font-size: 15px;
+    }
+    .formWord textarea{
+        width: 285px;
+        height: 90px;
+    } 
+}

@@ -1,0 +1,48 @@
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 0;
+  flex-direction: column;
+  margin: 10px 0 60px 0;
+}
+.skill-subtitle{
+  font-family: "Concert One", cursive;
+    color: darkslategray;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.skill-area {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skill-block{
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 720px){
+  .skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .skill-block{
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-subtitle{
+      font-weight: 500;
+      font-size: 24px;
+      margin: 15px;
+      text-align: center;
+  }
+}

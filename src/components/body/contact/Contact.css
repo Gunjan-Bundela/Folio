@@ -1,0 +1,81 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.contact-container{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items:center ;
+    margin:16px 0;
+    flex-direction: row;
+}
+.contact-left{
+    max-width: 40%;
+    font-size: 20px;
+    text-align: left;
+}
+.specific{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+.specific-div{
+    display: flex;
+    flex-direction: column;
+}
+.specific-div-head{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.specific-div-body{
+    font-size: 18px;
+    color: darkslategrey;
+}
+.download{
+    background-color: lavender;
+    padding: 10px 26px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.download a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width:720px){
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left{
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .download{
+        font-size: 16px;
+        margin: 5px;
+    }
+    .contact-right{
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .specific-div-head{
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .specific-div-body{
+        font-size: 16px;
+        color: darkslategrey;
+    }
+}

@@ -1,0 +1,65 @@
+.tophome{
+    padding: 100px 48px ;
+    /* padding-top: 150px; */
+}
+.tophome-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tophome-right{
+    display: flex;
+    flex-direction:row;
+    max-width: 60%;
+    margin-right: 10px;
+    padding-right: 0px;
+}
+
+.image{
+    height: 290px;
+    float: left;
+    margin-left: 0;
+}
+.tophome-info{
+    font-family:"Concert One", cursive;
+    font-size: 26px;
+    font-weight: 500;
+    float: right;
+}
+
+.info-name{
+    color: blueviolet;
+    font-size: 28px;
+    font-weight: 600;
+    max-width: 50%;
+}
+@media only screen and (max-width: 720px){
+    .tophome{
+        padding: 48px;
+    }
+    .tophome-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        height: 150px;
+    }
+    .tophome-info{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .info-name{
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 512px){
+    .image{
+        height: 120px;
+    }
+    .tophome-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
